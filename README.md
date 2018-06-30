@@ -1,15 +1,14 @@
-# IntelliJ-IDEA-Xcode-Keymap
+# Android-Studio-Xcode-Keymap
 
-Previous versions of IntelliJ and AppCode already have Xcode Keymap.
-
-But recent versions doesn't have it.
-You can add the Xcode keymap from the previous version of IntelliJ by this script.
-
-It's based on the Xcode keymap IntelliJ IDEA ships with: https://github.com/JetBrains/intellij-community/blob/master/platform/platform-resources/src/idea/Keymap_Xcode.xml
+This repository includes a keymap file for Android Studio (itself based on IntelliJ), along with a script to install it.
 
 ## Installation
+
 ```bash
 $ git clone https://github.com/armadsen/Android-Studio-Xcode-Keymap.git
 $ cd ./Android-Studio-Xcode-Keymap
 $ ./install.sh
 ```
+
+You can also manually install the keymap by copying `Keymap_Xcode.xml` into `~/Library/Preferences/AndroidStudio<Version>/keymaps`. You'll have to create the `keymaps` directory if it doesn't already exist.
+
