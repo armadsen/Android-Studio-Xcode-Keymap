@@ -9,7 +9,7 @@ It's based on the Xcode keymap IntelliJ IDEA ships with: https://github.com/JetB
 
 ## Installation
 ```bash
-$ git clone https://github.com/Pitzcarraldo/IntelliJ-IDEA-Xcode-Keymap.git
-$ cd ./IntelliJ-IDEA-Xcode-Keymap
+$ git clone https://github.com/armadsen/Android-Studio-Xcode-Keymap.git
+$ cd ./Android-Studio-Xcode-Keymap
 $ ./install.sh
 ```
